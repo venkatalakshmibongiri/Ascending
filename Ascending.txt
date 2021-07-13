@@ -1,0 +1,15 @@
+import java.util.*;
+class Ascending
+{
+     public static void main(String args[ ])
+     {
+       String str="hgfedcba";
+       char ch[ ]=str.toCharArray( );
+       Arrays.sort(ch);
+       String s=new String(ch);
+       System.out.println("String sorted in Ascending order of given strig is "+s);
+     }
+}
+
+Output___________________________-
+String sorted in Ascending order of given strig is abcdefgh
